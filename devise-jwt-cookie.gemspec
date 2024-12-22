@@ -24,15 +24,15 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'dry-auto_inject', '~> 1.0.1'
   spec.add_dependency 'dry-configurable', '1.2.0'
 
-  spec.add_development_dependency "bundler", "> 1"
-  spec.add_development_dependency "rake", "~> 12.3"
-  spec.add_development_dependency "rspec", "~> 3.8"
-  spec.add_development_dependency "pry-byebug", "~> 3.7"
+  spec.add_development_dependency 'bundler', '~> 2.6', '>= 2.6.1'
+  spec.add_development_dependency 'rake', '~> 13.2', '>= 13.2.1'
+  spec.add_development_dependency 'rspec', '~> 3.13'
+  spec.add_development_dependency 'pry-byebug', '~> 3.10', '>= 3.10.1'
   # Needed to test the rails fixture application
-  spec.add_development_dependency 'rails', '~> 5.0'
-  spec.add_development_dependency 'sqlite3', '~> 1.3'
-  spec.add_development_dependency 'rspec-rails', '~> 3.5'
+  spec.add_development_dependency 'rails', '~> 8.0', '>= 8.0.1'
+  spec.add_development_dependency 'sqlite3', '~> 2.4', '>= 2.4.1'
+  spec.add_development_dependency 'rspec-rails', '~> 7.1'
   # Test reporting
-  spec.add_development_dependency 'simplecov', '0.17'
-  spec.add_development_dependency 'codeclimate-test-reporter', '~> 1.0'
+  spec.add_development_dependency 'simplecov', '~> 0.13.0'
+  spec.add_development_dependency 'codeclimate-test-reporter', '~> 1.0', '>= 1.0.9'
 end
